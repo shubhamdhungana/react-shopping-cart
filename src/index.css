@@ -28,9 +28,17 @@ textarea {
     'header'
     'main'
     'footer';
-  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-rows: 15rem 1fr 5rem;
   grid-template-columns: 1fr;
   height: 100%;
+}
+.Intro {
+  text-align: center;
+  background-color: #ffb6c1;
+  color: #white;
+}
+.Intro p {
+  font-size: 2rem;
 }
 a {
   text-decoration: none;
@@ -137,3 +145,17 @@ footer {
   background-color: #f0c040;
 }
 /* PRODUCTS ENDS */
+
+/* FILTER STARTS */
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.filter div {
+  flex: 1;
+}
+/* FILTER ENDS */
